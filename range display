@@ -1,0 +1,4 @@
+for i := range display {
+  display[i] = "_"
+ }
+ fmt.Println(strings.Join(display, " "))
